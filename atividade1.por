@@ -45,7 +45,7 @@ programa
 	}
 	
 	funcao fazerCalculoExibir (){
-		real total = quantidadedeLitros % quantidadedeKm
+		real total = quantidadedeLitros / quantidadedeKm
 		escreva ("\n O carro consome" + total + "L por quiilômetro")
 		
 	}
